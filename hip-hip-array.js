@@ -147,7 +147,7 @@ console.log(a);*/
 const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
     dinosaurs.reverse();
    console.log(dinosaurs);*/
-
+/*
    const primaries = ['red', 'yellow', 'blue'];
 const secondaries = ['orange', 'green', 'purple'];
 let a = primaries.concat('orange','green','purple');
@@ -161,5 +161,12 @@ for (let index = 0; index < primaries.length; index++) {
 }
 for (let index = 0; index < secondaries.length; index++) {
    console.log(secondaries,'>'[index]);
+    
+}*/
+
+let userArray = JSON.parse(prompt("enter your array:"));
+userArray.includes(Number);
+for (let index = 0; index < userArray.length; index++) {
+   console.log(userArray);
     
 }
