@@ -132,7 +132,34 @@ const students = [
      console.log(students[index]);
      
  }*/
-/*
+/*const userArray = [];
+const students = [
+    'Tre',
+    'Sonny',
+    'Crystal',
+    'Ilyas',
+    'Greg',
+    'Fernando',
+    'Timothy',
+    'Patrick',
+    'Steve',
+    'Jimothy',
+    'Pat',
+    'Arnold',
+    'Andy'
+  ];
+
+  students.push*/
+
+
+
+
+
+
+
+
+
+ /*
  const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur'];
  dinosaurs.splice(4,7)
 
@@ -164,9 +191,3 @@ for (let index = 0; index < secondaries.length; index++) {
     
 }*/
 
-let userArray = JSON.parse(prompt("enter your array:"));
-userArray.includes(Number);
-for (let index = 0; index < userArray.length; index++) {
-   console.log(userArray);
-    
-}
